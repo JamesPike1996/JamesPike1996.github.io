@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>手机本地HTML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    form {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: #fff;
+    }
+
+    button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    li {
+      margin: 10px;
+      text-align: center;
+    }
+
+    li img {
+      width: 24px;
+      height: 24px;
+      margin-bottom: 5px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+      text-align: center;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #004c99;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <form id="search-form" action="https://www.google.com/search" method="GET">
+      <input type="text" name="q" placeholder="在谷歌中搜索..." required>
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+
+  <div>
+    <h2>知名网站导航</h2>
+    <ul>
+      <li>
+        <img src="icon_collection_highlight@2x.png" alt="Google Icon">
+        <a href="https://www.google.com">谷歌</a>
+      </li>
+      <li>
+        <img src="facebook_icon.png" alt="Facebook Icon">
+        <a href="https://www.facebook.com">Facebook</a>
+      </li>
+      <li>
+        <img src="youtube_icon.png" alt="YouTube Icon">
+        <a href="https://www.youtube.com">YouTube</a>
+      </li>
+      <li>
+        <img src="twitter_icon.png" alt="Twitter Icon">
+        <a href="https://www.twitter.com">Twitter</a>
+      </li>
+      <li>
+        <img src="instagram_icon.png" alt="Instagram Icon">
+        <a href="https://www.instagram.com">Instagram</a>
+      </li>
+      <li>
+        <img src="netflix_icon.png" alt="Netflix Icon">
+        <a href="https://www.netflix.com">Netflix</a>
+      </li>
+      <li>
+        <img src="linkedin_icon.png" alt="LinkedIn Icon">
+        <a href="https://www.linkedin.com">LinkedIn</a>
+      </li>
+      <li>
+        <img src="tiktok_icon.png" alt="TikTok Icon">
+        <a href="https://www.tiktok.com">TikTok</a>
+      </li>
+      <li>
+        <img src="reddit_icon.png" alt="Reddit Icon">
+        <a href="https://www.reddit.com">Reddit</a>
+      </li>
+      <li>
+        <img src="vimeo_icon.png" alt="Vimeo Icon">
+        <a href="https://www.vimeo.com">Vimeo</a>
+      </li>
+      <li>
+        <img src="pinterest_icon.png" alt="Pinterest Icon">
+        <a href="https://www.pinterest.com">Pinterest</a>
+      </li>
+      <!-- 在此添加更多网站链接 -->
+    </ul>
+  </div>
+</body>
+</html>
